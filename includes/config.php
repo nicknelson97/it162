@@ -36,7 +36,7 @@ switch(THIS_PAGE){
 }//end switch
 
 $nav['index.php'] = 'Home';
-$nav['big.php'] = 'BIG';
+$nav['big/index.php'] = 'BIG';
 //$nav['cat.php'] = 'Cats';
 $nav['final.php'] = 'Final';
 $nav['contact.php'] = 'Contact';
