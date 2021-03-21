@@ -1,0 +1,94 @@
+html {
+    background-color:#a8a8a8;
+
+}
+main {
+    background-color:#ffffff;
+    width:80%;
+    border:1px solid black;
+    margin:auto;
+}
+h1 a {
+    text-decoration: none;
+}
+
+section {
+    float:left;
+    width:64%;
+    border: 1px solid black;
+    margin: 2px;
+}
+
+aside {
+    float:right;
+    width:34%;
+
+    margin: 2px;
+}
+
+fullwidth {
+    width:100%;
+}
+
+footer {
+    padding:2em;
+    text-align:center;
+    clear:both;
+}
+figure {
+    display:inline-block;
+    width: 32%;
+}
+figure.img {
+    margin: auto;
+    border:1px solid #000;
+    text-align: center;
+}
+
+@media all and (max-width:600px) {
+    
+    main {
+        width:100%;
+    }
+    
+    section {
+        float:none;
+        width:100%;
+    }
+
+    aside {
+        float:none;
+        width:100%;
+    }
+    div.embed-container.agenda-view {
+        display:block;
+    }
+    div.embed-container.month-view {
+        display:none;
+    }
+
+}
+
+.embed-container { 
+    position: relative; 
+    padding-bottom: 56.25%; 
+    height: 0; 
+    overflow: hidden; 
+    max-width: 100%; 
+} 
+.embed-container iframe, .embed-container object, .embed-container embed { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+}
+nav{
+    margin: 2px;
+}
+
+@media all and (min-width:600px) {
+    div.embed-container.agenda-view {
+        display:none;
+    }
+}
